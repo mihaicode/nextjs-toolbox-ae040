@@ -15,7 +15,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
+    "export": "next export",
+    "format-markdown": "node utils/markdown-formatter.js",
+    "test": "jest"
   },
   "dependencies": {
     "cypress": "^13.4.0",
@@ -24,6 +26,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "jest": "^30.0.5",
     "netlify-plugin-cypress": "2.2.1"
   }
 }
